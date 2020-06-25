@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+
 // import './index.css';
 
 class Contact extends React.Component {
@@ -10,7 +10,7 @@ class Contact extends React.Component {
                 <h2> Don't forget contact with me =D</h2>
             </div>
             <div className="contact-links">
-                <a id="profile-link" href="https://github.com/AngieEslava" target="_blank"
+                <a id="profile-link" href="https://github.com/AngieEslava" 
                     className="btn contact-details"><i className="fab fa-github"></i> $GitHub</a>
                 <a href="mailto:example@example.com" className="btn contact-details"><i className="fas fa-at"></i> $Send a
                     mail</a>
